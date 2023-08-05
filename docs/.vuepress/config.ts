@@ -19,6 +19,10 @@ export default defineUserConfig({
             {
               text: "pnpm",
               children: ["/pnpm/管理pnpm的版本"]
+            },
+            {
+              text: "vscode",
+              children: ["/vscode/vscode提效技巧"]
             }
           ],
         },
