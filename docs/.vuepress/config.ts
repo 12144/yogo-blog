@@ -14,7 +14,7 @@ export default defineUserConfig({
             "/typescript/index.md",
             {
               text: "react",
-              children: ["/react/profiler"],
+              children: ["/react/profiler", "/react/ref使用技巧"],
             },
             {
               text: "pnpm",

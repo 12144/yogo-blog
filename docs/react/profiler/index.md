@@ -1,4 +1,4 @@
-# Profiler
+# Profiler 调试工具
 
 React Profiler 是 react 提供的性能分析工具，我们可以使用它来分析在一次 render 中每个组件的耗时，以及导致它 render 的原因，具体界面如下图
 
