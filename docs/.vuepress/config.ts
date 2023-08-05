@@ -16,6 +16,10 @@ export default defineUserConfig({
               text: "react",
               children: ["/react/profiler"],
             },
+            {
+              text: "pnpm",
+              children: ["/pnpm/管理pnpm的版本"]
+            }
           ],
         },
       ],
