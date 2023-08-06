@@ -14,7 +14,11 @@ export default defineUserConfig({
             "/typescript/index.md",
             {
               text: "react",
-              children: ["/react/profiler", "/react/ref使用技巧","/react/react18可以提高性能的新feature"],
+              children: ["/react/profiler", "/react/ref使用技巧","/react/react18可以提高性能的新feature" , 
+              {
+                text: "状态管理",
+                children: ["/react/状态管理/jotai"]
+              }],
             },
             {
               text: "pnpm",
