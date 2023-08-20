@@ -1,8 +1,17 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
+import {registerComponentsPlugin} from '@vuepress/plugin-register-components'
+import { getDirname, path } from '@vuepress/utils'
+
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   lang: "zh-CN",
   title: "刘有果的博客",
+  plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
+  ],
   theme: defaultTheme({
     sidebar: {
       "/": [
@@ -27,6 +36,10 @@ export default defineUserConfig({
             {
               text: "vscode",
               children: ["/vscode/vscode提效技巧"]
+            },
+            {
+              text: 'svg',
+              children: ["/svg/svg基础知识"]
             }
           ],
         },
