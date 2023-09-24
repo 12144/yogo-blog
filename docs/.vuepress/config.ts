@@ -40,6 +40,10 @@ export default defineUserConfig({
             {
               text: 'svg',
               children: ["/svg/svg基础知识"]
+            },
+            {
+              text: '民生政策',
+              children: ['/民生政策/租房公积金提取']
             }
           ],
         },
